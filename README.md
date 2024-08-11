@@ -46,6 +46,7 @@ AND PerformanceRating IS NULL;
 
 # ANALISE DOS DADOS 
 
+```
 # Descobre a idade média das pessoas que pediram demissão 
 SELECT AVG(Age) AS Age, attrition
 FROM hr_data.hr
