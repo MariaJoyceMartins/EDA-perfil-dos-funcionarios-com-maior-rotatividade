@@ -8,7 +8,7 @@ Idade, gênero, região, tempo de empresa, tempo de viagem ao trabalho, cargo, s
 Identificar padrões que contribuem para a rotatividade e direcionar ações estratégicas para retenção de talentos.
 
 # LIMPEZA DOS DADOS 
-
+'''
 # Alterando o nome da coluna age 
 ALTER TABLE hr_data.hr CHANGE age Age int;
 
@@ -42,7 +42,7 @@ AND WorkLifeBalance IS NULL
 AND YearsSinceLastPromotion IS NULL
 AND PercentSalaryHike IS NULL
 AND PerformanceRating IS NULL;
-
+'''
 
 # ANALISE DOS DADOS 
 
